@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>V1 — PharmSight</title>
+  <meta name="description" content="PharmSight helps global bio-pharmaceutical companies with advanced analytics, RWE and HEOR, competitive intelligence, forecasting, and an AI product toolkit." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" data-nav>
+    <a class="logo" href="#top" aria-label="PharmSight home">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="17.2" fill="none" stroke="#E65E27" stroke-width="2.4"/>
+        <circle cx="20" cy="20" r="11" fill="none" stroke="#8d8d8d" stroke-width="1.6"/>
+        <circle cx="20" cy="20" r="5" fill="#E65E27"/>
+        <circle cx="22.1" cy="18.1" r="1.45" fill="#fff"/>
+        <circle cx="20" cy="3.3" r="1.7" fill="#E65E27"/>
+        <circle cx="33.4" cy="26.8" r="1.6" fill="#9a9a9a"/>
+      </svg>
+      <span class="word">
+        <span class="word-main"><b>PHARM</b><b class="sight">SIGHT</b></span>
+        <span class="word-sub">Research &amp; Analytics</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" data-nav-toggle>
+      <span></span><span></span><span></span>
+      <span class="sr">Menu</span>
+    </button>
+
+    <nav id="menu" class="menu" data-menu>
+      <div class="drop">
+        <button type="button" class="drop-btn" aria-expanded="false">Solutions</button>
+        <div class="drop-panel" hidden>
+          <a href="#solutions">Advanced Analytics</a>
+          <a href="#solutions">RWE &amp; HEOR</a>
+          <a href="#solutions">Competitive Intelligence</a>
+          <a href="#solutions">Forecasting</a>
+          <a href="#solutions">Suites</a>
+        </div>
+      </div>
+      <div class="drop">
+        <button type="button" class="drop-btn" aria-expanded="false">Products</button>
+        <div class="drop-panel" hidden>
+          <a href="#products">Cintel</a>
+          <a href="#products">Conversity</a>
+          <a href="#products">IntelliSight</a>
+          <a href="#products">PharmLens</a>
+        </div>
+      </div>
+      <div class="drop">
+        <button type="button" class="drop-btn" aria-expanded="false">Accelerators</button>
+        <div class="drop-panel" hidden>
+          <p>Compressed programs that get a team to a decision faster. Scoped with you, not sold as a homepage brochure.</p>
+          <a href="#contact">Talk about an accelerator</a>
+        </div>
+      </div>
+      <div class="drop">
+        <button type="button" class="drop-btn" aria-expanded="false">Technology &amp; AI</button>
+        <div class="drop-panel" hidden>
+          <p>From Excel models to AI, dashboards, and workflow automation — built around how pharma teams work.</p>
+          <a href="#contact">Talk about technology</a>
+        </div>
+      </div>
+      <a class="btn btn-solid nav-cta" href="#contact">Contact us</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" data-hero>
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-slide is-active" data-slide>
+          <video class="hero-video" muted loop playsinline poster="../assets/immersive/capsules_frame.jpg">
+            <source src="../assets/immersive/capsules.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hero-slide" data-slide>
+          <img src="../assets/immersive/lab_microscope.jpg" alt="" />
+        </div>
+        <div class="hero-slide" data-slide>
+          <img src="../assets/immersive/lab_pipette.jpg" alt="" />
+        </div>
+        <div class="hero-slide" data-slide>
+          <img src="../assets/immersive/lab_mask.jpg" alt="" />
+        </div>
+      </div>
+      <div class="hero-shade"></div>
+
+      <div class="hero-layout">
+        <article class="hero-card" aria-live="polite">
+          <p class="kicker" data-hero-kicker>Commercial operations</p>
+          <h1 data-hero-title>Tailored solutions for global bio-pharmaceutical companies</h1>
+          <p class="lede" data-hero-body>By optimizing commercial performance, improving operational efficiencies, and providing deep market insights, we help you navigate the complexities of the bio-pharma industry.</p>
+          <a class="btn btn-dark" data-hero-link href="#solutions">Explore solutions</a>
+          <div class="hero-controls">
+            <button type="button" class="vbtn" data-hero-prev aria-label="Previous slide">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 10l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="vdots" data-hero-dots role="tablist" aria-label="Hero slides"></div>
+            <button type="button" class="vbtn" data-hero-next aria-label="Next slide">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <aside class="hero-stats">
+          <div><strong>75+</strong><span>Skilled consultants</span></div>
+          <div><strong>100%</strong><span>Client retention</span></div>
+          <div><strong>500+</strong><span>Projects delivered</span></div>
+        </aside>
+      </div>
+
+      <div class="ticker">
+        <div class="ticker-track">
+          <span>Gurugram</span><i></i>
+          <span>Boston</span><i></i>
+          <span>Zug — European hub, with Conversity in market</span><i></i>
+          <span>Advanced Analytics</span><i></i>
+          <span>RWE &amp; HEOR</span><i></i>
+          <span>Competitive Intelligence</span><i></i>
+          <span>Forecasting</span><i></i>
+          <span>Cintel</span><i></i>
+          <span>Conversity</span><i></i>
+          <span>IntelliSight</span><i></i>
+          <span>PharmLens</span><i></i>
+          <span>Gurugram</span><i></i>
+          <span>Boston</span><i></i>
+          <span>Zug — European hub, with Conversity in market</span><i></i>
+          <span>Advanced Analytics</span><i></i>
+          <span>RWE &amp; HEOR</span><i></i>
+          <span>Competitive Intelligence</span><i></i>
+          <span>Forecasting</span><i></i>
+          <span>Cintel</span><i></i>
+          <span>Conversity</span><i></i>
+          <span>IntelliSight</span><i></i>
+          <span>PharmLens</span><i></i>
+        </div>
+        <a class="btn btn-lime" href="#film">Watch the film</a>
+      </div>
+    </section>
+
+    <section class="band" id="approach">
+      <div class="wrap split-head">
+        <div>
+          <p class="eyebrow">How the work is built</p>
+          <h2>Technology, business, and pharma. One engagement.</h2>
+        </div>
+        <p>We seamlessly integrate the three so the model, the market, and the medicine are in the same conversation.</p>
+      </div>
+      <div class="trio wrap">
+        <article>
+          <img src="../assets/immersive/lab_centrifuge.jpg" alt="A researcher loading a laboratory centrifuge" />
+          <div>
+            <span>01</span>
+            <h3>Technology</h3>
+            <p>From quick Excel models to AI and intuitive dashboards, custom-built for pharma teams.</p>
+          </div>
+        </article>
+        <article>
+          <img src="../assets/immersive/lab_writing.jpg" alt="A scientist recording results beside racks of sample tubes" />
+          <div>
+            <span>02</span>
+            <h3>Business</h3>
+            <p>Sales, marketing, access, and commercial operations treated as one system.</p>
+          </div>
+        </article>
+        <article>
+          <img src="../assets/immersive/lab_scientist.jpg" alt="Scientists working together inside a laboratory" />
+          <div>
+            <span>03</span>
+            <h3>Pharma</h3>
+            <p>Therapy-area depth across the lifecycle, for established companies and biotech.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band band-ink" id="solutions">
+      <div class="wrap carousel-head">
+        <div>
+          <p class="eyebrow eyebrow-light">Solutions</p>
+          <h2>Grouped the way the business actually runs.</h2>
+        </div>
+        <div class="carousel-nav">
+          <button type="button" data-prev="solutions" aria-label="Previous solution">←</button>
+          <button type="button" data-next="solutions" aria-label="Next solution">→</button>
+        </div>
+      </div>
+      <div class="rail" data-rail="solutions" tabindex="0" aria-label="Solution practices">
+        <article class="sol-card">
+          <img src="../assets/immersive/lab_scientist.jpg" alt="Laboratory scientists at the bench" />
+          <div class="sol-body">
+            <p class="num">01</p>
+            <h3>Advanced Analytics</h3>
+            <p>Commercial performance, from the field force through marketing, access, and the patient.</p>
+            <ul>
+              <li>Sales Force Analytics</li>
+              <li>Marketing Analytics</li>
+              <li>Modelling Solutions</li>
+              <li>Reporting Solutions</li>
+              <li>Access &amp; Contracting Analytics</li>
+              <li>Patient Analytics</li>
+            </ul>
+          </div>
+        </article>
+        <article class="sol-card">
+          <img src="../assets/immersive/lab_iv.jpg" alt="A clinician arranging IV bags" />
+          <div class="sol-body">
+            <p class="num">02</p>
+            <h3>RWE &amp; HEOR</h3>
+            <p>Evidence for value, access, and the conversations that decide reimbursement.</p>
+            <ul>
+              <li>Budget Impact Analysis (BIA)</li>
+              <li>Patient-Reported Outcomes (PRO) Analysis</li>
+              <li>Health Technology Assessment (HTA)</li>
+              <li>Real-World Data (RWD) Collection</li>
+              <li>Value Dossier Development</li>
+            </ul>
+          </div>
+        </article>
+        <article class="sol-card">
+          <img src="../assets/immersive/lab_tubes.jpg" alt="Rows of labeled test tubes in a rack" />
+          <div class="sol-body">
+            <p class="num">03</p>
+            <h3>Competitive Intelligence</h3>
+            <p>The landscape, the pipeline, and the coverage that keeps a market visible.</p>
+            <ul>
+              <li>Competitive Landscape</li>
+              <li>Analyst Coverage</li>
+              <li>Pipeline &amp; Portfolio Monitoring</li>
+              <li>Conference Coverage</li>
+              <li>Periodic Monitoring</li>
+              <li>Opportunity Assessment</li>
+            </ul>
+          </div>
+        </article>
+        <article class="sol-card">
+          <img src="../assets/immersive/lab_bottle.jpg" alt="Glass laboratory bottles on a bench" />
+          <div class="sol-body">
+            <p class="num">04</p>
+            <h3>Forecasting</h3>
+            <p>In-line and pipeline views for investment, launch, valuation, and supply.</p>
+            <ul>
+              <li>In-line &amp; Pipeline Forecast</li>
+              <li>Business Development &amp; Licensing (BD&amp;L)</li>
+              <li>Stage-Gate Assessments</li>
+              <li>Market Sizing (Epi-based)</li>
+              <li>Statistical Forecast Models</li>
+              <li>Asset Valuation Models</li>
+              <li>Supply Chain Management</li>
+            </ul>
+          </div>
+        </article>
+        <article class="sol-card">
+          <img src="../assets/immersive/lab_pipette.jpg" alt="A scientist pipetting samples into tubes" />
+          <div class="sol-body">
+            <p class="num">05</p>
+            <h3>Suites</h3>
+            <p>Cross-practice programs organized around an outcome, not a single analysis.</p>
+            <ul>
+              <li>Launch Excellence</li>
+              <li>Commercial Effectiveness</li>
+              <li>Market Intelligence</li>
+              <li>Access Strategy &amp; Landscape</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="products">
+      <div class="wrap carousel-head">
+        <div>
+          <p class="eyebrow">Products</p>
+          <h2>Four products. One toolkit.</h2>
+          <p class="sub">Platforms that sit next to the consulting. Cintel, Conversity, and IntelliSight are shown from the live product screens.</p>
+        </div>
+        <div class="carousel-nav">
+          <button type="button" data-prev="products" aria-label="Previous product">←</button>
+          <button type="button" data-next="products" aria-label="Next product">→</button>
+        </div>
+      </div>
+      <div class="product-stage wrap">
+        <div class="product-view" data-product-view>
+          <figure>
+            <img data-product-img src="../assets/immersive/product1.png" alt="Cintel dashboard on a laptop, showing landscape, news, events, and analyst commentary" />
+          </figure>
+          <div class="product-copy">
+            <p class="eyebrow" data-product-index>01 / 04</p>
+            <h3 data-product-name>Cintel</h3>
+            <p data-product-body>Curated news, events, analyst insights, and historical sales data — a working view of the pharma landscape.</p>
+            <div class="pdots" data-product-dots role="tablist" aria-label="Products"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="film" id="film">
+      <video class="film-video" muted loop playsinline poster="../assets/immersive/hero_2.jpg" data-film>
+        <source src="../assets/immersive/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="film-shade"></div>
+      <div class="film-copy">
+        <button class="play" type="button" data-play aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5L8 5.5z" fill="currentColor"/></svg>
+          <span>Play film</span>
+        </button>
+        <p class="eyebrow eyebrow-light">PharmSight film</p>
+        <h2>The evidence layer behind the decision.</h2>
+        <p>A short loop from PharmSight’s own film, playing behind the work.</p>
+      </div>
+    </section>
+
+    <section class="band quotes" id="clients">
+      <div class="wrap carousel-head">
+        <div>
+          <p class="eyebrow">Clients</p>
+          <h2>What teams say after the work lands.</h2>
+        </div>
+        <div class="carousel-nav">
+          <button type="button" data-quote-prev aria-label="Previous quote">←</button>
+          <button type="button" data-quote-next aria-label="Next quote">→</button>
+        </div>
+      </div>
+      <div class="wrap quote-frame">
+        <blockquote data-quote>
+          <p data-quote-text>The new brand strategy was supported by analysis done by PharmSight team</p>
+          <footer data-quote-who>Associate Director · Top 10 Pharmaceutical Company</footer>
+        </blockquote>
+        <div class="pdots" data-quote-dots role="tablist" aria-label="Client quotes"></div>
+      </div>
+    </section>
+
+    <section class="band therapy" id="therapy">
+      <div class="wrap split-head">
+        <div>
+          <p class="eyebrow">Therapy areas</p>
+          <h2>Depth where the science is.</h2>
+        </div>
+        <p>Large markets and rare disease, across the development lifecycle for pharmaceutical companies and biotech.</p>
+      </div>
+      <div class="areas wrap">
+        <article>
+          <h3>Oncology</h3>
+          <p>Colorectal · NSCLC · Breast · Ovarian · Prostate · Pancreatic</p>
+        </article>
+        <article>
+          <h3>Neurology</h3>
+          <p>Multiple sclerosis · NMOSD · Huntington’s · Parkinson’s · ALS</p>
+        </article>
+        <article>
+          <h3>Rare disease</h3>
+          <p>DMD · Fabry · SMA · Pompe · Gaucher · Hemophilia A and B</p>
+        </article>
+        <article>
+          <h3>And beyond</h3>
+          <p>Immunology · Diabetes · Women’s health · Nephrology · Endocrinology · Medical devices</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <img src="../assets/immersive/lab_mask.jpg" alt="" />
+      <div class="contact-shade"></div>
+      <div class="contact-grid wrap">
+        <div>
+          <p class="eyebrow eyebrow-light">Let’s talk</p>
+          <h2>Tell us the decision in front of you.</h2>
+          <p>Commercial performance, evidence, intelligence, or a forecast. We will scope the work with you.</p>
+          <form class="form" data-form>
+            <label>Name<input name="name" required autocomplete="name" /></label>
+            <label>Work email<input name="email" type="email" required autocomplete="email" /></label>
+            <label>What do you need?
+              <select name="interest" required>
+                <option value="">Select one</option>
+                <option>Advanced Analytics</option>
+                <option>RWE &amp; HEOR</option>
+                <option>Competitive Intelligence</option>
+                <option>Forecasting</option>
+                <option>A suite</option>
+                <option>Cintel, Conversity, IntelliSight, or PharmLens</option>
+              </select>
+            </label>
+            <label>Note<textarea name="note" rows="4" required></textarea></label>
+            <button class="btn btn-solid" type="submit">Send</button>
+            <p class="form-note" data-form-note hidden>Thanks. This demo keeps your note on this page only — it is not sent to a server.</p>
+          </form>
+        </div>
+        <aside class="offices">
+          <p>Offices</p>
+          <div><strong>Gurugram</strong><span>Headquarters</span></div>
+          <div><strong>Boston</strong><span>United States</span></div>
+          <div><strong>Zug</strong><span>Europe</span></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-grid">
+      <div>
+        <strong>PharmSight</strong>
+        <p>Commercial operations and strategic analytics for global bio-pharmaceutical companies.</p>
+      </div>
+      <div>
+        <p class="foot-label">Explore</p>
+        <a href="#solutions">Solutions</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Accelerators</a>
+        <a href="#contact">Technology &amp; AI</a>
+      </div>
+      <div>
+        <p class="foot-label">Company</p>
+        <a href="#therapy">Therapy areas</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="wrap foot-bottom">
+      <span>© 2026 PharmSight Research &amp; Analytics</span>
+      <span>Photography: Unsplash. Capsule film: Mixkit. Product screens and brand film: PharmSight.</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

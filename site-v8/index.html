@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>V8 — PharmSight</title>
+  <meta name="description" content="PharmSight supports global bio-pharmaceutical companies with analytics, RWE and HEOR, competitive intelligence, forecasting, and the Cintel, Conversity, IntelliSight, and PharmLens AI toolkit." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header-row">
+      <a class="logo" href="#top" aria-label="PharmSight home">
+        <svg class="mark" viewBox="0 0 44 44" aria-hidden="true">
+          <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#19c3b4"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs>
+          <rect x="4" y="4" width="36" height="36" rx="12" fill="url(#lg)"/>
+          <circle cx="22" cy="22" r="8" fill="none" stroke="#fff" stroke-width="3"/>
+          <circle cx="22" cy="22" r="3" fill="#fff"/>
+        </svg>
+        <span class="logo-name">PharmSight</span>
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-btn>
+        <span class="bars" aria-hidden="true"></span>
+        <span class="sr-only" data-menu-label>Open menu</span>
+      </button>
+      <nav id="primary-nav" class="primary" aria-label="Primary" data-primary>
+        <ul>
+          <li class="has-menu">
+            <button type="button" aria-expanded="false" aria-controls="m-solutions">Solutions</button>
+            <ul id="m-solutions" class="submenu" hidden>
+              <li><a href="#stages">Advanced Analytics</a></li>
+              <li><a href="#stages">RWE &amp; HEOR</a></li>
+              <li><a href="#stages">Competitive Intelligence</a></li>
+              <li><a href="#stages">Forecasting</a></li>
+              <li><a href="#stages">Suites</a></li>
+            </ul>
+          </li>
+          <li class="has-menu">
+            <button type="button" aria-expanded="false" aria-controls="m-products">Products</button>
+            <ul id="m-products" class="submenu" hidden>
+              <li><a href="#products">Cintel</a></li>
+              <li><a href="#products">Conversity</a></li>
+              <li><a href="#products">IntelliSight</a></li>
+              <li><a href="#products">PharmLens</a></li>
+            </ul>
+          </li>
+          <li class="has-menu">
+            <button type="button" aria-expanded="false" aria-controls="m-accel">Accelerators</button>
+            <ul id="m-accel" class="submenu" hidden>
+              <li><a href="#contact">Scope an accelerator</a></li>
+            </ul>
+          </li>
+          <li class="has-menu">
+            <button type="button" aria-expanded="false" aria-controls="m-tech">Technology &amp; AI</button>
+            <ul id="m-tech" class="submenu" hidden>
+              <li><a href="#finder">Service Finder</a></li>
+              <li><a href="#brief">Brief Builder</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="#news">News</a></li>
+        </ul>
+        <a class="btn btn-grad" href="#contact">Contact us <span aria-hidden="true">→</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <svg class="hero-waves" viewBox="0 0 1440 640" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 420 C 240 340 420 520 720 440 S 1200 300 1440 380" />
+        <path d="M0 470 C 260 400 460 580 760 490 S 1220 360 1440 440" />
+        <path d="M0 520 C 280 460 500 620 800 540 S 1240 420 1440 500" />
+      </svg>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="pill">Since 2018 · Gurugram · Boston · Zug</p>
+          <h1 id="hero-title">Smarter commercial <span class="grad-text">decisions</span> for bio-pharma.</h1>
+          <p class="lead">PharmSight blends technology, business, and therapy-area expertise to improve commercial performance and give teams a clear view of the market.</p>
+          <div class="actions">
+            <a class="btn btn-grad" href="#stages">See what we do <span aria-hidden="true">→</span></a>
+            <a class="btn btn-outline" href="#contact">Let’s work together</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="blob">
+            <img src="../assets/immersive/lab_microscope.jpg" alt="A researcher in protective gear using a microscope" />
+          </div>
+          <div class="float-card fc-1" aria-hidden="true"><span class="fc-ico ico-ring"></span><div><strong>500+</strong><span>projects</span></div></div>
+          <div class="float-card fc-2" aria-hidden="true"><span class="fc-ico ico-square"></span><div><strong>100%</strong><span>retention</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="edge wrap" aria-labelledby="edge-title">
+      <div class="edge-head">
+        <div>
+          <p class="eyebrow">Why teams choose us</p>
+          <h2 id="edge-title">A balanced way to grow a brand</h2>
+        </div>
+        <div class="rail-controls">
+          <button type="button" class="round" data-rail-prev aria-label="Scroll advantages back">←</button>
+          <button type="button" class="round" data-rail-next aria-label="Scroll advantages forward">→</button>
+        </div>
+      </div>
+      <ul class="rail" data-rail tabindex="0" aria-label="Advantages, scrollable">
+        <li class="adv"><span class="adv-ico ico-ring" aria-hidden="true"></span><h3>Three kinds of expertise</h3><p>Technology, business, and pharma on one team, so findings turn into action.</p></li>
+        <li class="adv"><span class="adv-ico ico-square" aria-hidden="true"></span><h3>Therapy-area depth</h3><p>Oncology, neurology, immunology, and a wide range of other markets.</p></li>
+        <li class="adv"><span class="adv-ico ico-ring" aria-hidden="true"></span><h3>Flexible ways to engage</h3><p>A single project, a retained partner, or an analyst team embedded with yours.</p></li>
+        <li class="adv"><span class="adv-ico ico-square" aria-hidden="true"></span><h3>Tools that stay behind</h3><p>Cintel, Conversity, IntelliSight, and PharmLens keep working after the project.</p></li>
+        <li class="adv"><span class="adv-ico ico-ring" aria-hidden="true"></span><h3>Global, close to clients</h3><p>Hubs in Gurugram, Boston, and Zug, working across time zones.</p></li>
+      </ul>
+    </section>
+
+    <section class="stages" id="stages" aria-labelledby="stages-title">
+      <div class="wrap">
+        <p class="eyebrow eyebrow-light">End-to-end, across the lifecycle</p>
+        <h2 id="stages-title">Support at every stage of a product’s life</h2>
+        <div class="stage-row" data-stages>
+          <article class="stage is-open">
+            <h3>
+              <button type="button" aria-expanded="true" aria-controls="st-1" id="stb-1">
+                <span class="st-num">01</span><span class="st-title">Before launch</span><span class="st-sub">Size it and value it</span>
+              </button>
+            </h3>
+            <div id="st-1" class="st-body" role="region" aria-labelledby="stb-1">
+              <p>Forecasting and intelligence while the asset is still in development.</p>
+              <ul><li>Market Sizing (Epi-based)</li><li>Stage-Gate Assessments</li><li>Asset Valuation Models</li><li>BD&amp;L support</li><li>Pipeline &amp; Portfolio Monitoring</li></ul>
+            </div>
+          </article>
+          <article class="stage">
+            <h3>
+              <button type="button" aria-expanded="false" aria-controls="st-2" id="stb-2">
+                <span class="st-num">02</span><span class="st-title">At launch</span><span class="st-sub">Evidence and readiness</span>
+              </button>
+            </h3>
+            <div id="st-2" class="st-body" role="region" aria-labelledby="stb-2" hidden>
+              <p>Evidence, landscape, and forecasts brought together for a launch plan.</p>
+              <ul><li>Health Technology Assessment (HTA)</li><li>Value Dossier Development</li><li>Budget Impact Analysis (BIA)</li><li>Competitive Landscape</li><li>Launch Excellence</li></ul>
+            </div>
+          </article>
+          <article class="stage">
+            <h3>
+              <button type="button" aria-expanded="false" aria-controls="st-3" id="stb-3">
+                <span class="st-num">03</span><span class="st-title">In market</span><span class="st-sub">Grow and protect</span>
+              </button>
+            </h3>
+            <div id="st-3" class="st-body" role="region" aria-labelledby="stb-3" hidden>
+              <p>Analytics that keep an in-line brand growing and its access protected.</p>
+              <ul><li>Sales Force Analytics</li><li>Marketing Analytics</li><li>Patient Analytics</li><li>Access &amp; Contracting Analytics</li><li>Commercial Effectiveness</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="numbers wrap" aria-labelledby="numbers-title">
+      <h2 id="numbers-title" class="sr-only">PharmSight in numbers</h2>
+      <ul class="num-row">
+        <li><strong data-count="75" data-suffix="+">75+</strong><span>Skilled consultants</span></li>
+        <li><strong data-count="500" data-suffix="+">500+</strong><span>Projects delivered</span></li>
+        <li><strong data-count="100" data-suffix="%">100%</strong><span>Client retention</span></li>
+        <li><strong data-count="3">3</strong><span>Global hubs</span></li>
+      </ul>
+    </section>
+
+    <section class="finder" id="finder" aria-labelledby="finder-title">
+      <div class="wrap">
+        <div class="finder-head">
+          <div>
+            <p class="eyebrow">AI tool · Service Finder</p>
+            <h2 id="finder-title">Find the right service in seconds</h2>
+          </div>
+          <p class="muted">Search by keyword, or filter by practice. Results update as you type.</p>
+        </div>
+        <div class="finder-panel">
+          <div class="finder-controls">
+            <label for="finder-q" class="finder-label">Search services</label>
+            <div class="search">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              <input id="finder-q" type="search" placeholder="Try “forecast” or “patient”" autocomplete="off" data-finder-q />
+            </div>
+            <fieldset class="filters">
+              <legend>Practice</legend>
+              <label><input type="radio" name="practice" value="all" checked /> <span>All</span></label>
+              <label><input type="radio" name="practice" value="aa" /> <span>Analytics</span></label>
+              <label><input type="radio" name="practice" value="rwe" /> <span>RWE &amp; HEOR</span></label>
+              <label><input type="radio" name="practice" value="ci" /> <span>Intelligence</span></label>
+              <label><input type="radio" name="practice" value="fc" /> <span>Forecasting</span></label>
+              <label><input type="radio" name="practice" value="su" /> <span>Suites</span></label>
+            </fieldset>
+          </div>
+          <p class="finder-count" aria-live="polite" data-finder-count>28 services</p>
+          <ul class="results" data-finder-results></ul>
+          <p class="finder-empty" data-finder-empty hidden>No services match. Try a shorter word, or choose “All”.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="brief wrap" id="brief" aria-labelledby="brief-title">
+      <div class="brief-grid">
+        <div>
+          <p class="eyebrow">AI tool · Brief Builder</p>
+          <h2 id="brief-title">Turn your question into a project brief.</h2>
+          <p class="muted">Answer three questions and the builder drafts a short brief you can share with PharmSight. The text is assembled from templates on this page — it is not a live AI model and nothing is sent.</p>
+          <form class="brief-form" data-brief>
+            <div class="field">
+              <label for="b-area">Therapy area</label>
+              <select id="b-area" name="area">
+                <option>Oncology</option><option>Neurology</option><option>Immunology</option><option>Other markets</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="b-goal">Main goal</label>
+              <select id="b-goal" name="goal">
+                <option value="launch">Prepare a launch</option>
+                <option value="access">Win or protect access</option>
+                <option value="compete">Read the competition</option>
+                <option value="grow">Grow an in-line brand</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="b-time">Timeline</label>
+              <select id="b-time" name="time">
+                <option>Within 3 months</option><option>3 to 6 months</option><option>Over 6 months</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="brief-doc">
+          <div class="doc-head"><span class="doc-dot" aria-hidden="true"></span>Draft brief</div>
+          <div class="doc-body" aria-live="polite" data-brief-out></div>
+          <div class="doc-actions">
+            <button type="button" class="btn btn-grad" data-brief-copy>Copy brief</button>
+            <p class="copy-note" role="status" data-brief-note></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products" aria-labelledby="products-title">
+      <div class="wrap">
+        <p class="eyebrow eyebrow-light">Featured products</p>
+        <h2 id="products-title">An AI toolkit for pharma teams</h2>
+        <div class="prod-grid">
+          <article class="prod">
+            <div class="prod-img"><img src="../assets/immersive/product1.png" alt="Cintel showing news, events, congress data, and analyst commentary" /></div>
+            <h3>Cintel</h3>
+            <p>News, events, congress coverage, analyst commentary, and historical sales in one place.</p>
+          </article>
+          <article class="prod">
+            <div class="prod-img"><img src="../assets/immersive/conversity.png" alt="Conversity showing negotiation training modules" /></div>
+            <h3>Conversity</h3>
+            <p>AI-powered negotiation and sales training for pricing and objection handling.</p>
+          </article>
+          <article class="prod">
+            <div class="prod-img"><img src="../assets/immersive/product2.png" alt="IntelliSight conversational analytics with a chart and chat panel" /></div>
+            <h3>IntelliSight</h3>
+            <p>A conversational interface that lets business users question their data directly.</p>
+          </article>
+          <article class="prod">
+            <div class="prod-img prod-lens" aria-hidden="true"><span>PL</span></div>
+            <h3>PharmLens</h3>
+            <p>Part of the proprietary toolkit. A public product screen has not been released yet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="news wrap" id="news" aria-labelledby="news-title">
+      <p class="eyebrow">News</p>
+      <h2 id="news-title">What’s new at PharmSight</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <img src="../assets/immersive/zug_6.jpg" alt="" />
+          <div><p class="n-tag">Europe</p><h3>A European hub in Zug</h3><p>PharmSight GmbH opens in Zug, with Conversity part of the launch.</p></div>
+        </article>
+        <article class="news-card">
+          <img src="../assets/immersive/lab_writing.jpg" alt="" />
+          <div><p class="n-tag">United States</p><h3>A strategic hub in Boston</h3><p>A US subsidiary closer to American brand and access teams.</p></div>
+        </article>
+        <article class="news-card">
+          <img src="../assets/immersive/lab_tubes.jpg" alt="" />
+          <div><p class="n-tag">Products</p><h3>Four tools, one line</h3><p>Cintel, Conversity, IntelliSight, and PharmLens now sit together.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="join wrap" aria-labelledby="join-title">
+      <div class="join-band">
+        <div>
+          <p class="eyebrow eyebrow-light">Join us</p>
+          <h2 id="join-title">Curious minds solving pharma’s commercial questions.</h2>
+        </div>
+        <a class="btn btn-white" href="#contact">Explore careers <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let’s talk about the decision ahead.</h2>
+          <p class="muted">This form stays in your browser — nothing is sent.</p>
+        </div>
+        <form class="form" data-form novalidate>
+          <div class="form-alert" role="alert" data-form-alert hidden></div>
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="name" autocomplete="name" required aria-describedby="f-name-err" />
+            <p id="f-name-err" class="err" hidden></p>
+          </div>
+          <div class="field">
+            <label for="f-email">Work email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="f-email-err" />
+            <p id="f-email-err" class="err" hidden></p>
+          </div>
+          <div class="field">
+            <label for="f-topic">Topic</label>
+            <select id="f-topic" name="topic" required aria-describedby="f-topic-err">
+              <option value="">Select a topic</option>
+              <option>Solutions</option><option>Product demo</option><option>Careers</option><option>Partnership</option>
+            </select>
+            <p id="f-topic-err" class="err" hidden></p>
+          </div>
+          <button class="btn btn-grad" type="submit">Check and save</button>
+          <p class="ok" role="status" data-form-ok hidden>Saved on this page only. Nothing was sent.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">PharmSight</p>
+        <p>Commercial operations and strategic analytics for global bio-pharmaceutical companies.</p>
+      </div>
+      <nav aria-label="Solutions">
+        <h2>Solutions</h2>
+        <a href="#stages">Advanced Analytics</a>
+        <a href="#stages">RWE &amp; HEOR</a>
+        <a href="#stages">Competitive Intelligence</a>
+        <a href="#stages">Forecasting</a>
+        <a href="#stages">Suites</a>
+      </nav>
+      <nav aria-label="Company">
+        <h2>Company</h2>
+        <a href="#products">Products</a>
+        <a href="#news">News</a>
+        <a href="#contact">Careers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div>
+        <h2>Hubs</h2>
+        <p>Gurugram, India<br />Boston, United States<br />Zug, Switzerland</p>
+      </div>
+    </div>
+    <p class="wrap legal">© 2026 PharmSight Research &amp; Analytics. Photography from Unsplash. Product screens from pharmsight.com.</p>
+  </footer>
+  <script src="app.js"></script></body>
+</html>
